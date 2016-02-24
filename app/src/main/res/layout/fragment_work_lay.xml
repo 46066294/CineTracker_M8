@@ -28,7 +28,7 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/rtTitolPeli"
+        android:id="@+id/etTitolPeli"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
         android:layout_alignEnd="@+id/frameLayout"
@@ -43,4 +43,14 @@
         android:layout_above="@+id/textView"
         android:layout_alignParentEnd="true"
         android:layout_marginBottom="31dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etDescrip"
+        android:editable="true"
+        android:hint="Descripcio"
+        android:layout_below="@+id/etTitolPeli"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
 </RelativeLayout>

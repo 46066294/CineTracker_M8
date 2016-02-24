@@ -16,5 +16,15 @@ public class PojoNoteMapp {
         this.mapPojoForNote = mapPojoForNote;
     }
 
+    //getters-setters
+
+    public Map<Integer, PojoForNote> getMapPojoForNote() {
+        return mapPojoForNote;
+    }
+
+    public void setMapPojoForNote(Map<Integer, PojoForNote> mapPojoForNote) {
+        this.mapPojoForNote = mapPojoForNote;
+    }
+
 
 }
